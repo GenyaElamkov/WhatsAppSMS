@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 python-dotenv = "^1.0.0"
+whatsapp-api-client-python = "^0.0.34"
 
 
 [build-system]
