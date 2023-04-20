@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 python-dotenv = "^1.0.0"
 whatsapp-api-client-python = "^0.0.34"
+loguru = "^0.7.0"
 
 
 [build-system]

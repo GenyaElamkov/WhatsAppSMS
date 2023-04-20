@@ -1,3 +1,7 @@
+"""
+Скрипт отправляет сообщения в WhatsApp.
+"""
+
 from src.sms.main import main
 
 
