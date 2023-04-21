@@ -9,7 +9,7 @@ from src.sms.error import error_authorized, error_block, sms_no_pull, sms_pull
 
 load_dotenv()
 
-logger = logging.getLogger().setLevel(logging.INFO)
+logging.getLogger().setLevel(logging.INFO)
 
 
 def get_status_instanse(green_API: GreenApi) -> bool:
