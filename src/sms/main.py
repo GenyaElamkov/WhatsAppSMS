@@ -51,7 +51,3 @@ def main(text) -> None:
                 logging.info(f'{sms_pull} Статус ({result.code})')
             else:
                 logging.warning(f'{sms_no_pull} Статус ({result.code})')
-
-
-if __name__ == '__main__':
-    main()
